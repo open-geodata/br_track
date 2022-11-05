@@ -2,6 +2,7 @@
 data/
 docs/outros/
 lixo/
+logs/
 
 # IDEs
 .vscode/
