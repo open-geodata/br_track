@@ -10,13 +10,10 @@
 '
 ' Connect to GPSMapEdit.
 '
-' Modificado por Michel Metran, sendo possivel converter os arquivos IMG para MP...
+' Modificado por Michel Metran, tornando poss√≠vel converter os arquivos IMG para MP...
 ' https://github.com/Larry0ua/ua-convert/blob/master/navitel/ConvertToNM2.vbs
 ' https://pt.slideshare.net/rogerioreformado/apostila-manual-completo-windowsscripthost
 ' https://social.technet.microsoft.com/Forums/pt-BR/aa94ea1c-6d88-4eb1-953b-382891505489/acentos-no-script-vbs?forum=scriptadminpt
-
-
-
 
 
 ' Test Input Args
@@ -24,8 +21,8 @@ input_path = WScript.Arguments.Item(0)
 output_path = WScript.Arguments.Item(1)
 log_file = WScript.Arguments.Item(2)
 
-'MsgBox "Ol· Mundo: "' + strMonth
-'WScript.Echo "AlÙ"
+'MsgBox "Ol√° Mundo: "' + strMonth
+'WScript.Echo "Al√¥"
 'WScript.Echo "Pasta com arquivos .img: " & input_path
 
 ' Instance Application
@@ -63,6 +60,7 @@ If Not fso.FolderExists (input_path) Then
 	MsgBox "Couldn't find input folder."
 	WScript.Quit
 End if
+
 'Set pMapsFolder = fso.GetFolder (strRoot + "\img_files")
 Set pMapsFolder = fso.GetFolder (input_path)
 
