@@ -1,7 +1,5 @@
 # Conversão _img_ para _shp_
 
-<br>
-
 Arquivos em [formato _.img_](https://en.wikipedia.org/wiki/Garmin_.img) são utilizados nos aparelhos de GPS da marca Garmin e apresentam os vetores de rodovias, vias de acessos, trilhas, hidrografia entre diversas outras feições geográficas.
 
 Trata-se de um material interessante para ser utilizado em Sistemas de Informação Geográfica e análises espaciais, motivo pelo qual desenvolvi _script_ para proceder a conversão de formatos.
